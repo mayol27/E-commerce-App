@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+.regsec {
+	display: flex;
+	flex-direction: column;
+	max-width: 28rem;
+	justify-content: flex-start;
+	padding: 2rem;
+	background-color: rgb(243 244 246);
+	margin: auto;
+	margin-top: 9rem;
+	margin-bottom: 9rem;
+}
+
+.regform {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	flex-grow: 1;
+	padding-bottom: 1rem;
+}
+
+.regbutton {
+	margin-top: 1rem;
+}
+
+.regbutton {
+	padding: 0.5rem;
+}
+
+.instructions {
+	font-size: 0.75rem;
+	border-radius: 0.5rem;
+	background: #000;
+	color: #fff;
+	padding: 0.25rem;
+	position: relative;
+	bottom: -10px;
+}
+
+.instructions > svg {
+	margin-right: 0.25rem;
+}
+
+.offscreen {
+	position: absolute;
+	left: -9999px;
+}
+
+.hide {
+	display: none;
+}
+
+.valid {
+	color: limegreen;
+	margin-left: 0.25rem;
+}
+
+.invalid {
+	color: red;
+	margin-left: 0.25rem;
+}
+
+.errmsg {
+	background-color: lightpink;
+	color: firebrick;
+	font-weight: bold;
+	padding: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.line {
+	display: inline-block;
+}
+.loginsuccess {
+	font-size: 2.25rem; /* 36px */
+	line-height: 2.5rem;
+	font-weight: 700;
+	margin: 0.25rem, 0, 0.25rem, 0;
+}
+.login:hover {
+	text-decoration: underline;
+}
+.login {
+	font-weight: 600;
+}
